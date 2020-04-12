@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327726722256",
+    "firebase_url": "https://sfms-f9596.firebaseio.com",
+    "project_id": "sfms-f9596",
+    "storage_bucket": "sfms-f9596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327726722256:android:14ae9248e90b9216d002d5",
+        "android_client_info": {
+          "package_name": "com.example.sfms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327726722256-g830vitumn2rrdabu4gqnckr6d8755mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH9uHRtSp-nUPsM9ThYxwHONrAbHDZ77U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327726722256-g830vitumn2rrdabu4gqnckr6d8755mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:card_view="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/card_view"
+		android:layout_margin="@dimen/_8dp"
+		android:padding="@dimen/_8dp"
+		card_view:cardBackgroundColor="#6A6969"
+		card_view:cardCornerRadius="12dp"
+		card_view:cardElevation="3dp"
+		card_view:contentPadding="4dp" >
+	
+	<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp" >
+		
+		<ImageView
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:id="@+id/item_image"
+				android:layout_alignParentEnd="true"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentTop="true"
+				android:layout_marginEnd="16dp"
+				android:layout_marginRight="16dp"
+				android:src="@drawable/gassensor"
+				android:scaleType="fitCenter"/>
+		
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/item_title"
+				android:text="Cafeteria"
+				android:textColor="#fff"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentTop="true"
+				android:textSize="30sp" />
+		
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/co2"
+				android:textColor="#fff"
+				android:id="@+id/co2container"
+				android:layout_marginTop="@dimen/_8dp"
+				android:paddingStart="@dimen/_8dp"
+				android:paddingTop="@dimen/_8dp"
+				android:paddingBottom="@dimen/_8dp"
+				android:textAlignment="viewEnd"
+				android:layout_alignParentStart="true"
+				android:layout_below="@+id/item_title"
+				android:textSize="20sp" />
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/coconcentration"
+				android:text="ppm"
+				android:textColor="#fff"
+				android:layout_marginTop="@dimen/_8dp"
+				android:paddingTop="@dimen/_8dp"
+				android:layout_toEndOf="@id/co2container"
+				android:layout_below="@id/item_title"
+				android:textSize="20sp" />
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/co"
+				android:textColor="#fff"
+				android:textAlignment="viewEnd"
+				android:id="@+id/cocontainer"
+				android:layout_marginTop="@dimen/_8dp"
+				android:paddingStart="@dimen/_8dp"
+				android:paddingTop="@dimen/_8dp"
+				android:paddingBottom="@dimen/_8dp"
+				android:layout_alignParentStart="true"
+				android:layout_below="@+id/co2container"
+				android:textSize="20sp" />
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ppm"
+				android:id="@+id/co2concentration"
+				android:textColor="#fff"
+				android:layout_marginTop="@dimen/_8dp"
+				android:paddingTop="@dimen/_8dp"
+				android:layout_toEndOf="@id/cocontainer"
+				android:layout_below="@id/co2container"
+				android:textSize="20sp" />
+	
+	</RelativeLayout>
+</androidx.cardview.widget.CardView>

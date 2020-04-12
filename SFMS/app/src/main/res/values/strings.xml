@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SFMS</string>
+    <string name="co2">Co2:</string>
+    <string name="co">CO:</string>
+    <string name="channel_name">fire</string>
+    <string name="channel_description">fire detected</string>
+</resources>
